@@ -339,13 +339,13 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
             InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID[0]),
-            InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BOT_SUPPORTGROUP"
-            ),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BOT_SUPPORTGROUP"),
         ],
         [
             InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/ll_BOTCHAMBER_ll"),
-            InlineKeyboardButton(text="ᴀʟʟ ʙᴏᴛs", url=f"https://t.me/ll_BOTCHAMBER_ll/80"),
+            InlineKeyboardButton(
+                text="ᴀʟʟ ʙᴏᴛs", url=f"https://t.me/ll_BOTCHAMBER_ll/80"
+            ),
         ],
         [
             InlineKeyboardButton(text="𖨠Back𖨠", callback_data="about")
@@ -368,7 +368,9 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
         ],
         [
             InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="music"),
-            InlineKeyboardButton(text="ᴍᴀɴᴇɢᴇᴍᴇɴᴛ", callback_data="settings_back_helper"),
+            InlineKeyboardButton(
+                text="ᴍᴀɴᴇɢᴇᴍᴇɴᴛ", callback_data="settings_back_helper"
+            ),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -438,7 +440,9 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
         ],
         [
             InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="music"),
-            InlineKeyboardButton(text="ᴍᴀɴᴇɢᴇᴍᴇɴᴛ", callback_data="settings_back_helper"),
+            InlineKeyboardButton(
+                text="ᴍᴀɴᴇɢᴇᴍᴇɴᴛ", callback_data="settings_back_helper"
+            ),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]

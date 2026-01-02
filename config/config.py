@@ -20,7 +20,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "14050586"))
 
-API_HASH = getenv("API_HASH","42a60d9c657b106370c79bb0a8ac560c")
+API_HASH = getenv("API_HASH", "42a60d9c657b106370c79bb0a8ac560c")
 
 
 ## Get it from @Botfather in Telegram.
@@ -81,9 +81,7 @@ OWNER_ID = list(
 
 # make your bots privacy from telegra.ph and put your url here
 
-PRIVACY_LINK = getenv(
-    "PRIVACY_LINK", "https://t.me/ll_BOTCHAMBER_ll"
-)
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://t.me/ll_BOTCHAMBER_ll")
 
 
 # Get it from http://dashboard.heroku.com/account
@@ -118,7 +116,7 @@ SUPPORT_CHANNEL = getenv(
 )  # Example:- https://t.me/RishuTeam
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/+ru5wxqw8u_RmMzQ1"
-)  # Example:- https://t.me/RishuNetwork 
+)  # Example:- https://t.me/RishuNetwork
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_GROUP", "https://t.me/BOT_SUPPORTGROUP"
